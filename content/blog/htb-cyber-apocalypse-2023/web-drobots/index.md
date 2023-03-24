@@ -1,8 +1,9 @@
 ---
 title: "[web] Drobots"
 date: 2023-03-24T13:40:27+08:00
-summary: an easy web ctf
+summary: HTB Cyber apocalypse 2023 - SQL injection for the win
 draft: false
+tags: [ "ctf", "web" ]
 ---
 This challenge exposes a login page with a form as a home page.
 

@@ -6,14 +6,38 @@ theme = "anubis"
 [Params]
     mainSections = ["blog"]
     intro = true
-    headline = "My headline"
-    description = "My description"
+    headline = "Pierre Vigier's pages"
+    description = "Pierre Vigier's pages"
     opengraph = true
     dateFormat = "2006-01-02"
     style = 'dark-without-switcher'
     [[Params.Social]]
         id = 'github'
         url = 'https://github.com/pierre-vigier'
+
+[menu]
+
+# [[menu.main]]
+# identifier = "about"
+# name = "About"
+# url = "/about/"
+# weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+# [[menu.main]]
+# name = "Archive"
+# identifier = "archive"
+# url = "/posts/"
+# weight = 3
+
+[taxonomies]
+# category = "categories"
+tag = "tags"
 
 [Permalinks]
     post = "/:filename/"
