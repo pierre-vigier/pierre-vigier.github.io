@@ -1,3 +1,19 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://pierre-vigier.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Pierre Vigier'
+theme = "anubis"
+
+[Params]
+    mainSections = ["blog"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    opengraph = true
+    dateFormat = "2006-01-02"
+    style = 'dark-without-switcher'
+    [[Params.Social]]
+        id = 'github'
+        url = 'https://github.com/pierre-vigier'
+
+[Permalinks]
+    post = "/:filename/"
