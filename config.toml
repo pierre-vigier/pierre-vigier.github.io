@@ -2,7 +2,7 @@ baseURL = 'https://pierre-vigier.github.io/'
 languageCode = 'en-us'
 title = 'Pierre Vigier'
 theme = "anubis"
-googleAnalytics: "G-Q48EY1WS2H"
+googleAnalytics = "G-Q48EY1WS2H"
 [Params]
     mainSections = ["blog"]
     intro = true
