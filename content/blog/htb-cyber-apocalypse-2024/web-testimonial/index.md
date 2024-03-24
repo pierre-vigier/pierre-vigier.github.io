@@ -33,7 +33,7 @@ grpc_cli call localhost:50045 SubmitTestimonial "customer:'test' testimonial:'te
 ```
 creates a file test, with the content test in the public/testimonials folder.
 
-*At this point, we can rewrite the code of the applciation, add a new handler that read all the file at the root, and call it a day, right?*
+*At this point, we can rewrite the code of the application, add a new handler that read all the file at the root, and call it a day, right?*
 
 Wait, no so fast, the website is in Golang, which is compiled, luckily enough, the website is with the code source, but still, changing a source file will not do anything to the executable, we would need to recompile the binary.
 
